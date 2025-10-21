@@ -79,6 +79,9 @@ It includes **context management** and **secure sandboxing**, and can be used wi
 │   ├── multiagent_concurrent/              # Concurrent multi-agent task execution
 │   └── meta_planner_agent/                  # Planning agent with tool orchestration
 │
+├── agentic_rl/
+│   └── react_agent/                        # Training ReAct agent with RL
+│
 └── README.md
 ```
 
@@ -107,6 +110,7 @@ It includes **context management** and **secure sandboxing**, and can be used wi
 |                         | functionality/plan                                    | ✅               | ❌            | Task planning with ReAct agent                   |
 |                         | functionality/rag                                     | ✅               | ❌            | Retrieval-Augmented Generation (RAG) integration |
 |                         | functionality/stream_printing_messages                | ✅               | ❌            | Real-time message streaming and printing         |
+| **Agentic RL**          | agentic_rl/react_agent                                | ✅               | ❌            | Training ReAct agent with Reinforcement Learning  |
 
 ------
 
